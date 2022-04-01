@@ -46,12 +46,11 @@ function Home() {
       description:'Unique activities you can do yourself, led by a world of hosts',
       price: '6000৳ - 9000৳'
     }
+    
   ]
   return (
     <div className='home'>
-     
-    
-    <Banner/>
+     <Banner/>
 
     <div className='home_section'>
      {

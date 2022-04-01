@@ -2,7 +2,8 @@ import './App.css';
 
 import Header from './Header'
 import Home from './Home'
-import Card from './Card'
+
+import Footer from './Footer'
 
 
 function App() {
@@ -13,7 +14,6 @@ function App() {
   
     <Header/>
     <Home/>
-    <Card/>
     <Footer/>
     
 

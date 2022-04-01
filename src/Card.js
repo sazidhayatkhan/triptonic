@@ -10,7 +10,6 @@ function Card({src, title, description, price}) {
         <h4>{description}</h4>
         <h3>{price}</h3>
       </div>
-
     </div>
   )
 }
