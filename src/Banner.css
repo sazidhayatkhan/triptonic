@@ -1,0 +1,39 @@
+.banner {
+  background-image: url(C:\Users\HP\triptonic\public\images\7b375e1b4e908d53fd1b53394bb31832.jpg);
+  height: 53vh;
+  position: relative;
+}
+.banner_info {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-top: 25vh;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  width: 300px;
+}
+
+.banner_info > button {
+  background-color: rgb(23, 102, 57);
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner_info > h5 {
+  margin-top: 10px;
+}
+.banner_info > button:hover {
+  background-color: white;
+  color: rgb(23, 102, 57);
+}
+.banner_searchButton {
+  background-color: rgb(23, 102, 57) !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: white !important;
+}
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
