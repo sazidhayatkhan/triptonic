@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-         <p>Triptonic! All rights reserved by Everast Group</p>
+         <p> © 2022 Triptonic! All rights reserved by Everast Group</p>
          <p>Privacy. Terms . Sitemap . Company Detail</p>
 
 
