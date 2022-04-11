@@ -5,7 +5,9 @@ import'react-date-range/dist/theme/default.css'
 import{DateRangePicker} from 'react-date-range';
 import {Button} from '@mui/material' 
 import PeopleIcon from '@mui/icons-material/People';
-function Search() {
+import {useHistory} from 'react-router-dom';
+function Search() { 
+    const history= useHistory();
     const[startDate,
         setStartDate]=useState
         (new Date());
@@ -35,7 +37,7 @@ function Search() {
             <input min={0}
             defaultValue={2}
             type='number'/>
-            <Button>Search Triptonic</Button>
+            <Button onClick={()=>history.push('./Search')}>Search Triptonic</Button>
        
 
 

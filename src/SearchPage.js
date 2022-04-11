@@ -20,13 +20,52 @@ function SearchPage() {
         <Button
           variant='outlined'>More filters</Button>
         <SearchResult
-        img="./images/Bandarban.png"
+        img="./images/BandarbanSeacrhResult_1.png"
+        location='Fill with joy and nature'
+        title='The Green Trip to Bandarban'
+        description='2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine'
+        star={4.3}
+        price='£65 / night'
+        total='£480 total'
+        />
+        <SearchResult
+        img="./images/BandarbanSeacrhResult_1.png"
         location='pRIVATE PLACE FOR YOU'
         title='Hill top Bandarban'
-        description='23 peolpel last ught stayed theere'
+        description='2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine'
         star={4.3}
-        price='30doller/night'
-        total='117 taka'
+        price='£65 / night'
+        total='£480 total'
+        />
+
+<SearchResult
+        img="./images/BandarbanSeacrhResult_1.png"
+        location='Fill with joy and nature'
+        title='The Green Trip to Bandarban'
+        description='2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine'
+        star={4.3}
+        price='£65 / night'
+        total='£480 total'
+        />
+
+<SearchResult
+        img="./images/BandarbanSeacrhResult_1.png"
+        location='Fill with joy and nature'
+        title='The Green Trip to Bandarban'
+        description='2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine'
+        star={4.3}
+        price='£65 / night'
+        total='£480 total'
+        />
+
+<SearchResult
+        img="./images/BandarbanSeacrhResult_1.png"
+        location='Fill with joy and nature'
+        title='The Green Trip to Bandarban'
+        description='2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine'
+        star={4.3}
+        price='£65 / night'
+        total='£480 total'
         />
         
       </div>
